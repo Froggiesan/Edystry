@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 0 0.15em 0 rgb(0 0 0 / 10%);
+    
+}
+.logo{
+    width: 8vw;
+    max-width: 1200px;
+    float: left;
+    align-items: initial;
+    position: relative;
+    display: block;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-sizing: border-box;
+    
+    
+}
+section nav ul li {
+    display: inline-block;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+    
+    
+    border-radius: 10%;
+    margin: 2rem 1rem;
+    padding: 0.3rem;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    font-size: 3vw;
+    text-align: right;
+}
+nav{
+    box-sizing: inherit;
+    text-align: right;
+}
+section nav ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 0.5em 0 0.5em;
+    outline: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    
+}
+section nav ul li a:hover {
+    border: 0.3vw rgb(236, 143, 67);
+    border-style: inset;
+    border-top:rgb(236, 143, 67) ;
+    border-top-width: 0.3vw ;
+    border-top-style:inset;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
+
+.headerFont{
+    font-size: 1.3vw;
+}
+.section_init{
+    padding: 10vw;
+    width: 100%;
+    height: 48vw;
+    background: url(images/try6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    text-align: center;
+}
+.section_init h1{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20vw;
+    font-size: 3vw;
+    
+
+}
+.section_1{
+    padding: 10vw;
+    width: 100%;
+    height: 48vw;
+    background: url(images/zapatos.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    text-align: center;
+}
+.divMap{
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.poster{
+    padding: 1vw;
+    background-color: rgb(250, 245, 245,0.90);
+    width: 35vw;
+    height: 17vw;
+    float: left;
+    margin-top: 8vw;
+    margin-left: -10vw;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.poster:hover{
+    padding: 1vw;
+    background-color: rgb(250, 245, 245,0.90);
+    width: 35vw;
+    height: 17vw;
+    float: left;
+    margin-top: 8vw;
+    margin-left: 15vw;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.size_text{
+    font-size: 2vw;
+    text-align: center;
+}
+.poster h1{
+    font-size: 2vw;
+    text-align: left;
+    padding: 2vw;
+}
+.poster p{
+    font-size: 1.25vw;
+    text-align: left;
+    padding: 1vw;
+}
+.contenido{
+    padding: 5px 5px;
+    
+}
+.section_2{
+    width: 100%;
+    height: 48vw;
+    background: url(images/header_edy_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    text-align: center;
+}
+.poster2{
+    padding: 1.5vw;
+    background-color: rgb(250, 245, 245,0.90);
+    border-radius: 2%;
+    width: 35vw;
+    height: 17vw;
+    float: right;
+    margin-top: 8vw;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.poster2:hover{
+    padding: 1.5vw;
+    background-color: rgb(250, 245, 245,0.90);
+    border-radius: 2%;
+    width: 35vw;
+    height: 17vw;
+    float: right;
+    margin-top: 8vw;
+    margin-right: 20vw;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+.poster2 h1{
+    font-size: 2vw;
+    text-align: left;
+    padding: 2vw;
+   
+}
+
+.poster2 p{
+    font-size: 1.25vw;
+    text-align: left;
+    padding: 1vw;
+}
+.poster2 a{
+    font-size: 1.25vw;
+    text-align: left;
+    padding: 0vw;
+    color: black;
+    text-decoration: underline rgb(236, 143, 67);
+
+}
+.tienda{
+    text-align: center;
+    float: left;
+}
+.tienda h1{
+    font-size: 2vw;
+    
+}
+
+.tienda p{
+    font-size: 1.5vw;
+}
+.divMap .derecha{
+    float: right;
+    margin-left: 3vw;
+}
+
+
+
+footer{
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    line-height: 1em;
+    padding: 1.5em;
+    background: #A5A5A5;
+    color: rgb(78, 78, 78);
+    overflow: hidden;
+}

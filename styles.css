@@ -417,4 +417,11 @@ footer{
         
     
     }
+    .divMap{
+        padding: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
   }

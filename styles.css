@@ -867,6 +867,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 30vh;
+        float: right;
+        margin-top: 50vh;
+        margin-right: 20vw;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -875,6 +894,25 @@ footer{
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 30vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 15vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -908,6 +946,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 30vh;
+        float: right;
+        margin-top: 50vh;
+        margin-right: 20vw;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -916,6 +973,25 @@ footer{
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 30vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 15vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -987,6 +1063,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 37vh;
+        float: right;
+        margin-right: 20vw;
+        margin-top: 50vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -995,6 +1090,25 @@ footer{
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 30vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 20vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -1074,6 +1188,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 40vh;
+        float: right;
+        margin-right: 20vw;
+        margin-top: 50vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -1082,6 +1215,25 @@ footer{
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 35vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 20vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -1156,6 +1308,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 35vh;
+        float: right;
+        margin-right: 25vw;
+        margin-top: 50vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -1164,6 +1335,25 @@ footer{
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 30vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 25vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -1237,6 +1427,24 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2:hover {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 35vh;
+        float: right;
+        margin-top: 50vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
 }
 @media only screen and (max-width:300px) and (min-width:5px){
     .poster2 {
@@ -1257,6 +1465,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2 {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 50vh;
+        float: right;
+        margin-top: 25vh;
+        margin-right: 25vw;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -1265,6 +1492,25 @@ footer{
         float: left;
         margin-top: 25vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 40vh;
+        float: left;
+        margin-top: 25vh;
+        margin-left: 25vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -1296,6 +1542,25 @@ footer{
         -ms-transition: all 2s;
         -o-transition: all 2s;
     }
+    .poster2 {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 50vh;
+        float: right;
+        margin-right: 30vw;
+        margin-top: 25vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
     .poster {
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
@@ -1304,6 +1569,25 @@ footer{
         float: left;
         margin-top: 25vh;
         margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 40vh;
+        float: left;
+        margin-top: 25vh;
+        margin-left: 20vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;

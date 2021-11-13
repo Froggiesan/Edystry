@@ -12,7 +12,8 @@
     
 }
 .logo{
-    width: 8vw;
+    width: 10vw;
+    height: 20vh;
     max-width: 1200px;
     float: left;
     align-items: initial;
@@ -44,9 +45,10 @@ section nav ul li {
     font-size: 3vw;
     text-align: right;
 }
-nav{
+nav {
     box-sizing: inherit;
     text-align: right;
+    margin-right: 5vw;
 }
 section nav ul li a {
     display: block;
@@ -61,23 +63,72 @@ section nav ul li a {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
-    font-size: 1vw;
+    font-size: 2vw;
+    margin: 0;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    margin: 0;
+    }
+          
+nav li{
+    display:inline-block;
+    width:15vw;
+    height:30px;
+    padding:5px 10px;
+    background-color:transparent;
+    border:1px solid transparent;
+    text-align:center;
+    color:#c98730;
+    position:relative;
+    margin: 0;
+}
+nav li:hover{
+    color:#000;
+    
+}      
+#menu ul ul a:hover {
+    line-height: 120%;
+    padding: 5vh 15px;
+    color: #000;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+}
+          
+nav li>ul{
+    display:none;
+    margin: 0;
+    }
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top:30px;
+    left:0px;
+    color: #c98730;
     
 }
-section nav ul li a:hover {
-    border: 0.3vw rgb(236, 143, 67);
-    border-style: inset;
-    border-top:rgb(236, 143, 67) ;
-    border-top-width: 0.3vw ;
-    border-top-style:inset;
-    border-radius: 1vw;
-    -webkit-border-radius: 1vw;
-    -moz-border-radius: 1vw;
-    -ms-border-radius: 1vw;
-    -o-border-radius: 1vw;
-    
+#menu ul ul a {
+    line-height: 120%;
+    padding: 5vh 15px;
+    color: #c98730;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 10vh;
+    font-size: 1.3rem;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+    margin: 0;
 
 }
+
+
 
 .headerFont{
     font-size: 1vw;
@@ -296,21 +347,7 @@ footer{
     overflow: hidden;
 }
 @media only screen and (max-width:540px) {
-    .poster2:hover{
-        padding: 1.5vw;
-        background-color: rgb(250, 245, 245,0.90);
-        border-radius: 2%;
-        width: 50vw;
-        height: 12vh;
-        float: right;
-        margin-top: 50vh;
-        margin-right: 20vw;
-        -webkit-border-radius: 2%;
-        -moz-border-radius: 2%;
-        -ms-border-radius: 2%;
-        -o-border-radius: 2%;
-   
-    }
+    
     .section_2{
         width: 100%;
         height: 100vh;
@@ -362,7 +399,7 @@ footer{
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
         width: 50vw;
-        height: 12vh;
+        height: 25vh;
         float: left;
         margin-top: 50vh;
         margin-left: -10vw;
@@ -381,10 +418,10 @@ footer{
         padding: 1vw;
         background-color: rgb(250, 245, 245,0.90);
         width: 50vw;
-        height: 12vh;
+        height: 25vh;
         float: left;
         margin-top: 50vh;
-        margin-left: 15vw;
+        margin-left: 20vw;
         border-radius: 2%;
         -webkit-border-radius: 2%;
         -moz-border-radius: 2%;
@@ -396,7 +433,7 @@ footer{
         background-color: rgb(250, 245, 245,0.90);
         border-radius: 2%;
         width: 50vw;
-        height: 12vh;
+        height: 25vh;
         float: right;
         margin-top: 50vh;
         -webkit-border-radius: 2%;
@@ -408,6 +445,33 @@ footer{
         -moz-transition: all 2s;
         -ms-transition: all 2s;
         -o-transition: all 2s;
+    }
+    .poster2 h1{
+        font-size: 1rem;
+    }
+    .poster h1{
+        font-size: 1rem;
+    }
+    .poster p{
+        font-size: 0.5rem;
+    }
+    .poster2 p{
+        font-size: 0.5rem;
+    }
+    .poster2:hover{
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 25vh;
+        float: right;
+        margin-top: 50vh;
+        margin-right: 20vw;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+   
     }
     .section_init h1{
         text-align: center;
@@ -424,6 +488,26 @@ footer{
         align-items: center;
         height: 100vh;
     }
+    section nav ul li {
+        display: inline-block;
+        margin-left: 0.5em;
+        font-size: 1.2em;
+        
+        
+        border-radius: 10%;
+        margin: 2rem 1rem;
+        padding: 0.3rem;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        font-size: 3vw;
+        text-align: right;
+    }
+    nav{
+        box-sizing: inherit;
+        text-align: right;
+    }
     section nav ul li a {
         display: block;
         color: inherit;
@@ -437,37 +521,117 @@ footer{
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s;
-        font-size: 2rem;
+        font-size: 1vw;
+        margin: 0;
         
     }
-    section nav ul li a:hover {
-        border: 0.3vw rgb(236, 143, 67);
-        border-style: inset;
-        border-top:rgb(236, 143, 67) ;
-        border-top-width: 0.3vw ;
-        border-top-style:inset;
-        border-radius: 1vw;
-        -webkit-border-radius: 1vw;
-        -moz-border-radius: 1vw;
-        -ms-border-radius: 1vw;
-        -o-border-radius: 1vw;
+    nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size:14px;
+        margin: 0;
+        }
+              
+    nav li{
+        display:inline-block;
+        width:15vw;
+        height:30px;
+        padding:5px 10px;
+        background-color:transparent;
+        border:1px solid transparent;
+        text-align:center;
+        color:#c98730;
+        position:relative;
+        margin: 0;
+    }
+              
+    nav li:hover{
+        color:#000;
         
+    }
+              
+    nav li>ul{
+        display:none;
+        margin: 0;
+        }
+    
+    nav li:hover>ul{
+        display:block;
+        position:absolute;
+        top:30px;
+        left:0px;
+        color: #c98730;
+        
+    }
+    #menu ul ul a {
+        line-height:120%;
+        padding:5vh 15px;
+        color: #c98730;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+    }
+    
+    #menu ul li:hover > ul {
+        display:block;
+        margin: 0;
     
     }
+    
+    .poster2 h1{
+        font-size: 2rem;
+    }
+    .poster h1{
+        font-size: 2rem;
+    }
+    .poster p{
+        font-size: 0.7rem;
+    }
+    .poster2 p{
+        font-size: 0.7rem;
+    }
     .headerFont{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+    }
+    .logo{
+        width: 40vw;
+        height: 20vh;
+
+    }
+    .section_init h1{
+        font-size: 1.5rem;
     }
   }
   @media only screen and (max-width:450px){
     .headerFont{
         font-size: 0.5rem;
     }
+    section nav ul li {
+        display: inline-block;
+        margin-left: 0.5em;
+        font-size: 1.2em;
+        
+        
+        border-radius: 10%;
+        margin: 2rem 1rem;
+        padding: 0.3rem;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        font-size: 3vw;
+        text-align: right;
+    }
+    nav{
+        box-sizing: inherit;
+        text-align: right;
+        right: 10vw;
+    }
     section nav ul li a {
-        margin-top: 0vh;
-        display: inline;
+        display: block;
         color: inherit;
         text-decoration: none;
-        height: 0.5em;
+        height: 3em;
         line-height: 3em;
         padding: 0 0.5em 0 0.5em;
         outline: 0;
@@ -476,32 +640,359 @@ footer{
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s;
+        font-size: 1vw;
+        margin: 0;
         
     }
-    section nav ul {
-        display: block;
-        margin-top: 0vh;
+    nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size:14px;
+        margin: 0;
+        }
+              
+    nav li{
+        display:inline-block;
+        width:15vw;
+        height:30px;
+        padding:5px 10px;
+        background-color:transparent;
+        border:1px solid transparent;
+        text-align:center;
+        color:#c98730;
+        position:relative;
+        margin: 0;
+    }
+              
+    nav li:hover{
+        background-color:#fff;
+        color:#000;
+        
+        }
+              
+    nav li>ul{
+        display:none;
+        margin: 0;
+        }
+    
+    nav li:hover>ul{
+        display:block;
+        position:absolute;
+        top:30px;
+        left:0px;
+        color: #c98730;
+        
+    }
+    #menu ul ul a {
+        line-height:120%;
+        padding:5vh 15px;
+        color: #c98730;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+
         
     }
     
-    section nav ul li {
-        display: block;
-        height: 1vh;
-       
-        
-    }
-    section nav ul li a:hover {
-        border: 0.3vw rgb(236, 143, 67);
-        border-style: inset;
-        border-top:rgb(236, 143, 67) ;
-        border-top-width: 0.3vw ;
-        border-top-style:inset;
-        border-radius: 1vw;
-        -webkit-border-radius: 1vw;
-        -moz-border-radius: 1vw;
-        -ms-border-radius: 1vw;
-        -o-border-radius: 1vw;
-        
+    #menu ul li:hover > ul {
+        display:block;
+        margin: 0;
     
+    }
+    .poster{
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 25vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster:hover{
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 25vh;
+        float: left;
+        margin-top: 50vh;
+        margin-left: 20vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+    }
+    .poster2{
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 25vh;
+        float: right;
+        margin-top: 50vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster2:hover{
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 25vh;
+        float: right;
+        margin-top: 50vh;
+        margin-right: 20vw;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+   
+    }
+    .poster2 h1{
+        font-size: 1rem;
+    }
+    .poster h1{
+        font-size: 1rem;
+    }
+    .poster p{
+        font-size: 0.5rem;
+    }
+    .poster2 p{
+        font-size: 0.5rem;
+    }
+    .headerFont{
+        font-size: 0.8rem;
+    }
+    .logo{
+        width: 40vw;
+        height: 20vh;
+
+    }
+    .section_init h1{
+        font-size: 1.5rem;
     }
   }
+
+  #cajacookies {
+    display: none;
+    box-shadow: 0px 0px 5px 5px #808080;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  #cajacookies button {
+    color: black;
+  }
+
+
+  
+
+/* Para 960px */  
+@media only screen and (max-width: 980px) and (min-width: 821px) {  
+  
+}  
+  
+/* Para 800px */  
+@media only screen and (max-width: 820px) and (min-width: 621px) {  
+  
+}  
+  
+/* Para 600px */  
+@media only screen and (max-width: 620px) and (min-width: 501px) {  
+    nav {
+        box-sizing: inherit;
+        text-align: right;
+        margin-right: 15vw;
+    }
+    
+    section nav ul li a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        height: 3em;
+        line-height: 3em;
+        padding: 0 0.5em 0 0.5em;
+        outline: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        font-size: 1.5rem;
+        margin: 0;
+        width: 26vw;
+    }
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 5vh 15px;
+        color: #683f09;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+        font-size: 1rem;
+    }
+    .tienda h1 {
+        font-size: 1rem;
+    }
+    .tienda p {
+        font-size: 0.8rem;
+    }
+    
+}  
+  
+/* Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+    nav {
+        box-sizing: inherit;
+        text-align: right;
+        right: 15vw;
+        margin-right: 10vw;
+    }
+    section nav ul li a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        height: 3em;
+        line-height: 3em;
+        padding: 0 0.5em 0 0.5em;
+        outline: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 5vh 15px;
+        color: #784909;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+        width: 20vw;
+        height: 8vh;
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    .tienda h1 {
+        font-size: 1rem;
+    }
+    .tienda p {
+        font-size: 0.8rem;
+    }
+}  
+  
+/* Para 320px */  
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+    nav {
+        box-sizing: inherit;
+        text-align: right;
+        right: 15vw;
+        margin-right: 10vw;
+    }
+    section nav ul li a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        height: 3em;
+        line-height: 3em;
+        padding: 0 0.5em 0 0.5em;
+        outline: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 5vh 15px;
+        color: #784909;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+        width: 25vw;
+        height: 9vh;
+        text-align: left;
+        font-size: 0.9rem;
+        text-align: left !important;
+    }
+    .tienda h1 {
+        font-size: 1rem;
+    }
+    .tienda p {
+        font-size: 0.8rem;
+    }
+    
+} 
+/* Para 280px */  
+@media only screen and (max-width: 320px) and (min-width: 5px){
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 5vh 15px;
+        color: #784909;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+        width: 25vw;
+        height: 9vh;
+        text-align: left;
+        font-size: 0.9rem;
+        text-align: left !important;
+    }
+    .tienda h1 {
+        font-size: 1rem;
+    }
+    .tienda p {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 340px) and (min-width: 5px){
+    nav {
+        box-sizing: inherit;
+        text-align: right;
+        right: 15vw;
+        margin-right: 25vw;
+    }
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 5vh 15px;
+        color: #784909;
+        margin: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 10vh;
+        width: 35vw;
+        height: 9vh;
+        text-align: left;
+        font-size: 0.8rem;
+        text-align: left !important;
+    }
+}

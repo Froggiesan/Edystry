@@ -246,7 +246,7 @@ nav li:hover>ul{
     background-color: rgb(250, 245, 245,0.90);
     border-radius: 2%;
     width: 35vw;
-    height: 24vw;
+    height: 28vw;
     float: right;
     margin-top: 8vw;
     -webkit-border-radius: 2%;
@@ -264,7 +264,7 @@ nav li:hover>ul{
     background-color: rgb(250, 245, 245,0.90);
     border-radius: 2%;
     width: 35vw;
-    height: 24vw;
+    height: 28vw;
     float: right;
     margin-top: 8vw;
     margin-right: 20vw;
@@ -432,7 +432,7 @@ footer{
         background-color: rgb(250, 245, 245,0.90);
         border-radius: 2%;
         width: 50vw;
-        height: 25vh;
+        height: 30vh;
         float: right;
         margin-top: 50vh;
         -webkit-border-radius: 2%;
@@ -462,7 +462,7 @@ footer{
         background-color: rgb(250, 245, 245,0.90);
         border-radius: 2%;
         width: 50vw;
-        height: 25vh;
+        height: 30vh;
         float: right;
         margin-top: 50vh;
         margin-right: 20vw;

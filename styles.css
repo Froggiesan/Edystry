@@ -1220,3 +1220,81 @@ footer{
         text-align: left !important;
     }
 }
+@media only screen and (max-width:300px) and (min-width:5px){
+    .poster2 {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 50vh;
+        float: right;
+        margin-top: 25vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 40vh;
+        float: left;
+        margin-top: 25vh;
+        margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+}
+@media only screen and (max-width:260px) and (min-width:5px){
+    .poster2 {
+        padding: 1.5vw;
+        background-color: rgb(250, 245, 245,0.90);
+        border-radius: 2%;
+        width: 50vw;
+        height: 50vh;
+        float: right;
+        margin-top: 25vh;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+    .poster {
+        padding: 1vw;
+        background-color: rgb(250, 245, 245,0.90);
+        width: 50vw;
+        height: 40vh;
+        float: left;
+        margin-top: 25vh;
+        margin-left: -10vw;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+    }
+}

@@ -3,6 +3,9 @@
     margin:0;
     font-family: 'Heebo', sans-serif;
 }
+.face{
+    width: 2vw;
+}
 
 .header{
     position: fixed;
@@ -1012,7 +1015,9 @@ footer{
         text-align: right;
         margin-right: 15vw;
     }
-    
+    .face {
+        width: 8vw;
+    }
     section nav ul li a {
         display: block;
         color: inherit;
@@ -1129,6 +1134,9 @@ footer{
         text-align: right;
         right: 15vw;
         margin-right: 10vw;
+    }
+    .face {
+        width: 8vw;
     }
     section nav ul li a {
         display: block;
@@ -1249,6 +1257,7 @@ footer{
   
 /* Para 320px */  
 @media only screen and (max-width: 340px) and (min-width: 5px)  {  
+    
     nav {
         box-sizing: inherit;
         text-align: right;
@@ -1270,6 +1279,9 @@ footer{
         -o-transition: all 0.5s;
         font-size: 1.4rem;
         margin: 0;
+    }
+    .face {
+        width: 8vw;
     }
     #menu ul ul a {
         line-height: 120%;
@@ -1382,6 +1394,9 @@ footer{
         font-size: 0.9rem;
         text-align: left !important;
     }
+    .face {
+        width: 8vw;
+    }
     .tienda h1 {
         font-size: 1rem;
     }
@@ -1395,6 +1410,9 @@ footer{
         text-align: right;
         right: 15vw;
         margin-right: 25vw;
+    }
+    .face {
+        width: 8vw;
     }
     #menu ul ul a {
         line-height: 120%;
@@ -1464,6 +1482,9 @@ footer{
         -moz-transition: all 2s;
         -ms-transition: all 2s;
         -o-transition: all 2s;
+    }
+    .face {
+        width: 8vw;
     }
     .poster2 {
         padding: 1.5vw;
@@ -1541,6 +1562,9 @@ footer{
         -moz-transition: all 2s;
         -ms-transition: all 2s;
         -o-transition: all 2s;
+    }
+    .face {
+        width: 8vw;
     }
     .poster2 {
         padding: 1.5vw;

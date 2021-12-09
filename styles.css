@@ -348,6 +348,12 @@ footer{
     color: rgb(78, 78, 78);
     overflow: hidden;
 }
+.circle{
+    border: 2px solid black;
+    padding: 1vw;
+    padding-right: 1.2vw;
+    border-radius: 50%;
+}
 @media only screen and (max-width:540px) {
     
     .section_2{
@@ -1017,6 +1023,10 @@ footer{
     }
     .face {
         width: 8vw;
+        border: #000;
+        border-width: 1px;
+        border-style: solid;
+
     }
     section nav ul li a {
         display: block;
